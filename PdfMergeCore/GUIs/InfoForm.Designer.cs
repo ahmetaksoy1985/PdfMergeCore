@@ -1,4 +1,4 @@
-﻿namespace PdfMerge
+﻿namespace PdfMergeCore
 {
     partial class InfoForm
     {

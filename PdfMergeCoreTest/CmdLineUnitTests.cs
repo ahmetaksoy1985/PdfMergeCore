@@ -6,7 +6,7 @@ using System.IO;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 
-namespace PdfMergeTest
+namespace PdfMergeCoreTest
 {
     [TestClass]
     public class CmdLineUnitTests
@@ -21,7 +21,7 @@ namespace PdfMergeTest
             bool showGui;
             string resCmdFile;
             string resOutfile;
-            string err = PdfMerge.Program.ProcessCommandLine(args, out showGui, out resCmdFile, out resOutfile);
+            string err = PdfMergeCore.Program.ProcessCommandLine(args, out showGui, out resCmdFile, out resOutfile);
 
             bool pass1 = File.Exists(outfile);
             Assert.IsTrue(pass1, "outfile should exist : " + planfile);
@@ -45,7 +45,7 @@ namespace PdfMergeTest
             bool showGui;
             string resCmdFile;
             string resOutfile;
-            string err = PdfMerge.Program.ProcessCommandLine(args, out showGui, out resCmdFile, out resOutfile);
+            string err = PdfMergeCore.Program.ProcessCommandLine(args, out showGui, out resCmdFile, out resOutfile);
 
             bool pass1 = File.Exists(outfile);
             Assert.IsTrue(pass1, "outfile should exist : " + planfile);
@@ -69,7 +69,7 @@ namespace PdfMergeTest
             bool showGui;
             string resCmdFile;
             string resOutfile;
-            string err = PdfMerge.Program.ProcessCommandLine(args, out showGui, out resCmdFile, out resOutfile);
+            string err = PdfMergeCore.Program.ProcessCommandLine(args, out showGui, out resCmdFile, out resOutfile);
 
             bool pass1 = File.Exists(outfile);
             Assert.IsTrue(pass1, "outfile should exist : " + planfile);
@@ -93,7 +93,7 @@ namespace PdfMergeTest
             bool showGui;
             string resCmdFile;
             string resOutfile;
-            string err = PdfMerge.Program.ProcessCommandLine(args, out showGui, out resCmdFile, out resOutfile);
+            string err = PdfMergeCore.Program.ProcessCommandLine(args, out showGui, out resCmdFile, out resOutfile);
 
             bool pass1 = File.Exists(outfile);
             Assert.IsTrue(pass1, "outfile should exist : " + planfile);
@@ -117,7 +117,7 @@ namespace PdfMergeTest
             bool showGui;
             string resCmdFile;
             string resOutfile;
-            string err = PdfMerge.Program.ProcessCommandLine(args, out showGui, out resCmdFile, out resOutfile);
+            string err = PdfMergeCore.Program.ProcessCommandLine(args, out showGui, out resCmdFile, out resOutfile);
 
             bool pass1 = !File.Exists(outfile);
             Assert.IsTrue(pass1, "outfile should not exist : " + planfile);

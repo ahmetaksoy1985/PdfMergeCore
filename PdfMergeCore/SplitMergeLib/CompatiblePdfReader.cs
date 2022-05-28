@@ -8,10 +8,8 @@
 // See the readme.doc file included with this package.
 // =============================================================================
 
-namespace PdfSharp.Pdf.IO
+namespace PdfSharpCore.Pdf.IO
 {
-    using PdfSharpCore.Pdf;
-    using PdfSharpCore.Pdf.IO;
     using System.IO;
 
     /// <summary>

@@ -49,12 +49,12 @@
 //
 // =============================================================================
 
-namespace PdfMerge
+namespace PdfMergeCore
 {
     using System;
     using System.Windows.Forms;
     using Microsoft.Win32;
-    using PdfMerge.SplitMergeLib;
+    using PdfMergeCore.SplitMergeLib;
 
     public class Program
     {

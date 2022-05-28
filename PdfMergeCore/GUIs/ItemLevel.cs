@@ -43,7 +43,7 @@
 //
 //   1.0 Dec 22/2017 C. Van Lingen  <V2.00> Initial release
 // =============================================================================
-namespace PdfMerge
+namespace PdfMergeCore
 {
     using System.Drawing;
     using System.Windows.Forms;

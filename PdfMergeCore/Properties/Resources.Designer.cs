@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace PdfMerge.Properties {
+namespace PdfMergeCore.Properties {
     using System;
     
     

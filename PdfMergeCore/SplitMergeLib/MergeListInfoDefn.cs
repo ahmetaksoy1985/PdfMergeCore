@@ -44,7 +44,7 @@
 //   1.0 Dec 22/2017 C. Van Lingen  <V2.00> Moved to separate class
 // =============================================================================
 
-namespace PdfMerge.SplitMergeLib
+namespace PdfMergeCore.SplitMergeLib
 {
     public class MergeListInfoDefn : System.ICloneable
     {

@@ -43,11 +43,11 @@
 //
 //   1.0 Aug 2/2008 C. Van Lingen  <V1.18> Initial Release
 // =============================================================================
-namespace PdfMerge
+namespace PdfMergeCore
 {
     using System;
     using System.Windows.Forms;
-    using PdfMerge.SplitMergeLib;
+    using PdfMergeCore.SplitMergeLib;
 
     public partial class InfoForm : Form
     {

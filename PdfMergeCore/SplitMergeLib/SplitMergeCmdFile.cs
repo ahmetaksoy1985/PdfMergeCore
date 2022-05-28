@@ -63,7 +63,7 @@
 //                                  (Previous fix was not adequate)
 // =============================================================================
 
-namespace PdfMerge.SplitMergeLib
+namespace PdfMergeCore.SplitMergeLib
 {
     using System;
     using System.Collections;

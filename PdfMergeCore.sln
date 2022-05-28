@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PdfMerge", "PdfMerge\PdfMerge.csproj", "{603D6511-36E9-456B-BA60-D40EB34561FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PdfMergeCore", "PdfMergeCore\PdfMergeCore.csproj", "{603D6511-36E9-456B-BA60-D40EB34561FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfMergeTest", "PdfMergeTest\PdfMergeTest.csproj", "{A65F919E-60FC-4B70-9113-EF8150FA36C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PdfMergeCoreTest", "PdfMergeCoreTest\PdfMergeCoreTest.csproj", "{A65F919E-60FC-4B70-9113-EF8150FA36C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

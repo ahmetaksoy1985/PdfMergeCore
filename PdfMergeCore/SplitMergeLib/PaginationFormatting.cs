@@ -43,7 +43,7 @@
 //
 //   1.0 Dec 20/2017 C. Van Lingen  <V2.00> Initial release
 // =============================================================================
-namespace PdfMerge.SplitMergeLib
+namespace PdfMergeCore.SplitMergeLib
 {
     public class PaginationFormatting
     {

@@ -1,7 +1,7 @@
 ﻿// From:
 // https://stackoverflow.com/questions/24866683/find-common-parent-path-in-list-of-files-and-directories
 
-namespace PdfMerge
+namespace PdfMergeCore
 {
     using System.Collections.Generic;
 

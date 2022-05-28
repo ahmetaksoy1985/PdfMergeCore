@@ -58,7 +58,7 @@
 //   1.1 Mar 15/2009 C. Van Lingen  <V1.19> Migrated to PdfSharp 1.20, Various GUI updates
 //   1.0 Jul 29/2008 C. Van Lingen  <V1.18> Initial Release
 // =============================================================================
-namespace PdfMerge
+namespace PdfMergeCore
 {
     using System;
     using System.Collections.Generic;
@@ -66,7 +66,7 @@ namespace PdfMerge
     using System.IO;
     using System.Windows.Forms;
     using JWC;
-    using PdfMerge.SplitMergeLib;
+    using PdfMergeCore.SplitMergeLib;
 
     public partial class PdfMergeForm : Form
     {

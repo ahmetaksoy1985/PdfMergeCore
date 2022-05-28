@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PdfMerge\PdfMerge.csproj" />
+    <ProjectReference Include="..\PdfMergeCore\PdfMergeCore.csproj" />
   </ItemGroup>
 
   <ItemGroup>

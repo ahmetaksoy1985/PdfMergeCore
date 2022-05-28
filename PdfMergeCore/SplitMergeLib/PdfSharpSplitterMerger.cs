@@ -53,14 +53,14 @@
 //   1.0 Jan  8/2008 C. Van Lingen  (V1.17) Replaced merge tool with PDF sharp
 //                                  (handles up to version 1.6 PDF formats)
 // =============================================================================
-namespace PdfMerge.SplitMergeLib
+namespace PdfMergeCore.SplitMergeLib
 {
     using System;
     using System.Windows.Forms;
     using PdfSharpCore.Drawing;
     using PdfSharpCore.Pdf;
     using PdfSharpCore.Pdf.Advanced;
-    using PdfSharp.Pdf.IO;
+    using PdfSharpCore.Pdf.IO;
 
     public class PdfSharpSplitterMerger
     {

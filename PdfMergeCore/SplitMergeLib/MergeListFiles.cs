@@ -45,7 +45,7 @@
 //
 // =============================================================================
 
-namespace PdfMerge.SplitMergeLib
+namespace PdfMergeCore.SplitMergeLib
 {
     using System;
 
